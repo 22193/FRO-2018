@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Smooth Scroll</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style media="screen">
+
+      html {
+        overflow-y: hidden;
+      }
+
+      main {
+        width: 500vw;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+      }
+
+      section {
+        box-sizing: border-box;
+        height: 100vh;
+        overflow: auto;
+      }
+
+      section img {
+        max-width: 100%;
+        margin: 1em 0;
+      }
+
+      #groen {
+        display: block;
+      }
+
+      footer {
+        display: block;
+        position: absolute;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#rood">rood</a>
+        </li>
+        <li>
+          <a href="#groen">groen</a>
+        </li>
+        <li>
+          <a href="#blauw">blauw</a>
+        </li>
+        <li>
+          <a href="#oranje">oranje</a>
+        </li>
+        <li>
+          <a href="#geel">geel</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="rood">
+        <h2>Rood horizontaal</h2>
+        <p>Dit is de rode pagina. <br>
+           Een link naar <a href="index.html">de vertikale versie.</a>
+        </p>
+      </section>
+
+      <section id="groen">
+        <h2>Groen</h2>
+        <p>Dit is de groene pagina.</p>
+        <div class="inhoud">
+          <img src="https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=bright-clouds-cold-618833.jpg&fm=jpg" alt="foto1">
+          <img src="https://images.pexels.com/photos/2402/landscape-nature-forest-lake.jpg?cs=srgb&dl=fall-forest-hd-wallpaper-2402.jpg&fm=jpg" alt="foto2">
+          <img src="https://images.pexels.com/photos/1966/field-summer-agriculture-harvest.jpg?cs=srgb&dl=agriculture-countryside-farm-1966.jpg&fm=jpg" alt="foto3">
+        </div>
+      </section>
+
+      <section id="blauw">
+        <h2>Blauw</h2>
+        <p>Dit is de blauwe pagina.</p>
+      </section>
+
+      <section id="oranje">
+        <h2>Oranje</h2>
+        <p>Dit is de oranje pagina.</p>
+      </section>
+
+      <section id="geel">
+        <h2>Geel</h2>
+        <p>Dit is de gele pagina.</p>
+      </section>
+      <footer>
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+        </a>
+      </footer>
+    </main>
+
+  </body>
+</html>
