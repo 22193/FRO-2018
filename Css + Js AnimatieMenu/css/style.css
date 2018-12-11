@@ -1,0 +1,68 @@
+body {
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+#knop {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 40px;
+}
+
+.vlakje {
+  background-color: red;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 10px;
+  transition: transform .6s cubic-bezier(.17,.67,.71,1.29);
+}
+
+.vlakje:hover {
+  opacity: .6;
+}
+
+.vlakje--schuif-uit {
+  transform: translateX(-40vw);
+}
+
+hr {
+    width: 35px;
+    height: 5px;
+    border: 0;
+    background-color: black;
+    margin: 6px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+  padding-top: 25px;
+  border-bottom: 4px solid #fff;
+  padding-left: 20px;
+}
+
+ul li:nth-child(2) {
+  transition-delay: .3s;
+}
+
+ul li:nth-child(3) {
+  transition-delay: .6s;
+}
+
+ul li:nth-child(4) {
+  transition-delay: .9s;
+}
+
+#validatie img {
+    height: 3em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
