@@ -13,6 +13,8 @@ body {
 
 .vlakje {
   background-color: red;
+  position: relative;
+  left: -40vw;
   width: 30vw;
   height: 10vh;
   border-radius: 10px;
@@ -24,10 +26,10 @@ body {
 }
 
 .vlakje--schuif-uit {
-  transform: translateX(-40vw);
+  transform: translateX(40vw);
 }
 
-hr {
+.hr {
     width: 35px;
     height: 5px;
     border: 0;
